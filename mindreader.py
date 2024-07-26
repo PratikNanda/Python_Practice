@@ -15,7 +15,7 @@ def driver():
     print()
     return x
 val = None
-while(val != "0"):
+while(val == "y"):
     input("Welcome to MIND READER")
     input("Please choose distinct digits 2 digit number")
     input("Now reverse the digits of chosen number")
@@ -25,7 +25,7 @@ while(val != "0"):
     y = driver()
     input()
     print("Your emoji is : ",y)
-    val = input("If you dont want to continue then press 0\n")
+    val = input("If you want to continue press y\n")
     
 
 
