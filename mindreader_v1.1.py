@@ -35,8 +35,8 @@ def display():
         input()
         print("Your emoji is : ",y)
         val = input("If you want to continue enter 'Y'\n")
-        if val != "y" or val != "Y":
-            return
+        if val.lower() != "y":
+            return False
 
 main()
 
